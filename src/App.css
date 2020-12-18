@@ -72,3 +72,45 @@
   padding-top: 15%;
   background: #ccc;
 }
+.overlayTextThirdImg {
+  color: #ffffffa3;
+  position: absolute;
+  bottom: 10%;
+  left: 35%;
+}
+.overlayIconThirdImg {
+  color: #ffffffa3;
+  position: absolute;
+  bottom: 23%;
+  left: 42%;
+}
+.poundImg {
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.shareWrapper {
+  position: absolute;
+  bottom: 14%;
+  right: 0;
+  padding-right: 2%;
+  background: #aa38b0;
+  padding-left: 2%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.shareWrapper img {
+  display: flex;
+}
+.shareWrapper p {
+  color: #ffffff;
+  font-size: 10px;
+  margin: 0
+}
+.shareWrapper img:nth-child(2) {
+  margin-top: 5px;
+}
+.shareWrapper img:nth-child(4) {
+  margin-top: 5px;
+}

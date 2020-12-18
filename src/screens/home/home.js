@@ -1,19 +1,13 @@
 import React from 'react'
-import {  Header, Footer, Cards, SecondPage } from '../../components';
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import {  Header, Footer, Cards } from '../../components';
 
 export const Home = () => {
   return (
-    <Router>
-      <div className="Container">
+    <div className="Container">
       <Header/>
-      <Switch>
-          <Route exact path="/" component={Cards} />
-          <Route path="/second" component={SecondPage} />
-      </Switch>
+      <Cards/>
       <Footer/>
     </div>
-  </Router>
 
   );
 }
