@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+.footer {
+  height: 70px;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  margin-bottom: 5px;
+  -webkit-box-shadow: 0px -4px 3px #70707066;
+  -moz-box-shadow: 0px -4px 3px #70707066;
+  box-shadow: 0px -4px 3px #70707066;
+}
+.caption {
+  font-size: 12px;
+  color: #AA38B0;
+}
+.caption-white {
+  font-size: 12px;
+  color: #ffffff;
+}
+.footer-icons {
+  color: #ffffff;
+}
+.footer-columns {
+  background: rgb(171,53,186);
+  background: linear-gradient(180deg, rgba(171,53,186,1) 18%, rgba(217,95,76,1) 54%);
+  border: #ffffff 1px solid;
+}
+.swipe {
+  position: absolute;
+  height: 63%;
+}
+.cardContainer {
+  width: 120vw;
+  max-width: 360px;
+  height: 80%;
+}
+.card {
+  position: relative;
+  background-color: #fff;
+  width: 120vw;
+  max-width: 360px;
+  height: 100%;
+  box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.30);
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+.cardContent {
+  width: 100%;
+  height: 100%;
+}
+.cardUpperContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.overlayText{
+  color: #ffffffa3;
+  position: absolute;
+  bottom: 45px;
+  left: 30px
+}
+.overlayIcon {
+  color: #ffffffa3;
+  position: absolute;
+  bottom: 32px;
+}
+.darkBackground {
+  padding-top: 15%;
+  background: #ccc;
+}
